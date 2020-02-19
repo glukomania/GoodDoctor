@@ -1,0 +1,27 @@
+.logo {
+  width: 50%;
+  margin: 0 auto 0 0;
+  font-size: 40px;
+  color: #068a9c;
+  font-weight: 800px;
+}
+
+.logo-slogan {
+  font-size: 14px;
+  color: #d44a1e;
+}
+
+.addNew {
+  display: flex;
+  padding: 20px 0;
+  width: 50%;
+  margin: 0 0 0 auto;
+  text-align: right;
+  font-size: 20px;
+  color: #068a9c;
+}
+
+.AddNew-icon {
+  margin: 0 0 0 auto;
+  padding-right: 10px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./main.css";
 
 const Main = () => {
@@ -13,9 +14,9 @@ const Main = () => {
         </div>
         <div className="addNew">
           <div className="AddNew-icon">
-            <a href="#">
+            <Link to="/results">
               <i className="fa fa-plus-circle"></i>
-            </a>
+            </Link>
           </div>
           <div className="addNew-text">
             <a href="#">Добавить нового доктора</a>
@@ -46,7 +47,7 @@ const Main = () => {
       </div>
       <div className="search-button">
         <button type="submit" className="search_btn">
-          Искать
+          <Link to="/results">Искать</Link>
         </button>
       </div>
     </div>

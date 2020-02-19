@@ -1,0 +1,46 @@
+.search-container {
+  margin: 50px 0;
+}
+.searchline {
+  display: flex;
+}
+
+.dropdown_wrapper {
+  width: 30%;
+}
+
+.dropdown {
+  margin: 0 auto;
+  /* min-width: 300px; */
+  width: 93%;
+  height: 50px;
+  color: #909090;
+  font-size: 18px;
+  background-color: white;
+}
+
+.search_btn {
+  cursor: pointer;
+  margin: 0 0 0 auto;
+  width: 150px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: #068a9c;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-options {
+  display: flex;
+}
+
+.search-option {
+  padding: 20px 20px;
+}
+
+.search-checkbox {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
