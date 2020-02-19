@@ -41,25 +41,34 @@ const Search = () => {
         </div>
 
         <div className="search-button">
-          <button type="submit" className="search_btn">
+          <button type="submit" className="filer-search_btn">
             <Link to="/results">Искать</Link>
           </button>
         </div>
       </div>
       <div className="search-options">
-        <div className="search-option">
-          <input type="checkbox" className="search-checkbox"></input>
-          <label>Детский</label>
-        </div>
-        <div className="search-option">
-          <input type="checkbox" className="search-checkbox"></input>
-          <label>Работает с коммерческими страховками</label>
-        </div>
-        <div className="search-option">
-          <input type="checkbox" className="search-checkbox"></input>
-          <label>Берет новых пациентов</label>
+        <div className="search-options_wrapper">
+          <label class="container">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Детский
+          </label>
+
+          <label class="container">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Работает с коммерческими страховками
+          </label>
+
+          <label class="container">
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+            Берет новых пациентов
+          </label>
         </div>
       </div>
+
+      <div className="deriveline"></div>
     </div>
   );
 };
