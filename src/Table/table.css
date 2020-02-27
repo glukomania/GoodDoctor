@@ -1,14 +1,21 @@
 .table-container {
   padding: 20px;
-  background-color: #f9f9f9;
 }
 
 .table-header {
   display: flex;
   justify-content: space-between;
-  color: #aaa;
+  color: #068a9c;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .col {
   padding: 20px;
+  width: 22%;
+  font-size: 20px;
+}
+
+.header-col {
+  text-align: center;
+  font-size: 16px;
 }

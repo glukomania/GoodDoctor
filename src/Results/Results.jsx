@@ -5,7 +5,7 @@ import Table from "../Table/table";
 
 const Results = props => {
   return (
-    <div className="main-container">
+    <div>
       <Header />
       <Search />
       <Table />

@@ -48,27 +48,27 @@ const Search = () => {
       </div>
       <div className="search-options">
         <div className="search-options_wrapper">
-          <label class="container">
+          <label className="container">
             <input type="checkbox" />
-            <span class="checkmark"></span>
+            <span className="checkmark"></span>
             Детский
           </label>
 
-          <label class="container">
+          <label className="container">
             <input type="checkbox" />
-            <span class="checkmark"></span>
+            <span className="checkmark"></span>
             Работает с коммерческими страховками
           </label>
 
-          <label class="container">
+          <label className="container">
             <input type="checkbox" />
-            <span class="checkmark"></span>
+            <span className="checkmark"></span>
             Берет новых пациентов
           </label>
         </div>
       </div>
 
-      <div className="deriveline"></div>
+      {/* <div className="deriveline"></div> */}
     </div>
   );
 };
