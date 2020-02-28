@@ -4,3 +4,7 @@
   color: #606060;
   text-align: center;
 }
+
+.table-item:hover {
+  color: #068a9c;
+}

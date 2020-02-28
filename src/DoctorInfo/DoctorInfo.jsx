@@ -1,4 +1,5 @@
 import React from "react";
+import Feedbacks from "../Feedbacks/Feedbacks";
 import "./doctorinfo.css";
 
 const DoctorInfo = () => {
@@ -62,8 +63,6 @@ const DoctorInfo = () => {
           ></iframe>
         </div>
       </div>
-
-      <div className="doctor-feedbacks"></div>
     </div>
   );
 };
